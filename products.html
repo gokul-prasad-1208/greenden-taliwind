@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="bg-green-100 flex p-4 justify-between justify-center shadow-lg sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg class="w-8  md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+            stroke="currentColor" className="size-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="text-gray-800 flex gap-5 hidden md:flex">
+            <li> <a class="hover:underline" href="/index.html">Home</a></li>
+            <li><a class="hover:underline" href="">Products</a></li>
+            <li> <a class="hover:underline" href="./contact.html">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- our products -->
+    <section>
+        <div class="text-center mt-4">
+            <h1 class="font-bold text-3xl md:text-4xl">Our Products</h1>
+            <input class="border border-black w-5/6 inline p-1 my-4  md: text-lg p-2" type="text" name="" id=""
+                placeholder="Search for a products..">
+        </div>
+        <div class="grid grid-cols-2 m-5 md:grid-cols-4 gap-10 ">
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-four.jpg" alt>
+                <p>Carnation</p>
+                <p>$30</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-eight.jpeg" alt>
+                <p>Daffodil</p>
+                <p>$10</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-two.webp" alt>
+                <p>Marigold</p>
+                <p>$50</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-seven.jpeg" alt>
+                <p>Geranium</p>
+                <p>$10</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-three.webp" alt>
+                <p>Chrysanthemum</p>
+                <p>$18</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-six.jpeg" alt>
+                <p>Gardenia</p>
+                <p>$10</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-one.jpg" alt>
+                <p>Hydrangea</p>
+                <p>$15</p>
+            </div>
+            <div class=" text-center  ">
+                <img class="w-56 h-64 inline hover:shadow-xl transform hover:-translate-y-2"
+                    src="./images/image-five.jpeg" alt>
+                <p>Magnolia</p>
+                <p>$26</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+           <section>
+            <div class="bg-green-200 p-6 mt-10">
+                <h2 class="font-bold text-4xl mb-4">Greenden</h2>
+                <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, nesciunt quas sint </p>
+                <p>&copy; 2021 greenden.com</p>
+            </div>
+           </section>
+
+
+</body>
+
+</html>
