@@ -1,0 +1,86 @@
+<style>
+    .container {
+        background-color: aqua;
+        width: 700px;
+        height: 500px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        color: white;
+    }
+
+    .container-one,
+    .container-three {
+        background-color: blue;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-two {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .aside {
+        background-color: green;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Article {
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .image {
+        background-color: yellow;
+        margin: 5px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .art-two{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-one">
+            <h2>header</h2>
+        </div>
+        <div class="container-two">
+            <div class="aside">
+                <h1>Aside</h1>
+            </div>
+            <div class="Article">
+                <div class="art-one"></div>
+                <div class="art-two">
+                    <div class="image">image</div>
+                    <div class="image">image</div>
+                    <div class="image">image</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-three">
+            <h2>footer</h2>
+
+        </div>
+    </div>
+</body>
+
+</html>
